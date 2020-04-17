@@ -1,0 +1,91 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: "SiYuan HeiTi M", "Microsoft YaHei";
+    font-size:14px;
+    color:#333;
+}
+ul, ol, body, html {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    color: #232323;
+    -webkit-tap-highlight-color: transparent;
+}
+.help {
+	width: 100%;
+	height: 100%;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    background-color: #eee;
+}
+.help-list {
+    margin-top: 10px;
+    padding: 8px 0 8px 25px;
+    background-color: #fff;
+}
+.help-list a {
+    display: block;
+}
+.help-list-inner {
+    position: relative;
+    padding: 10px 40px 10px 0;
+    border-bottom: 1px solid #323232;
+    color: #323232;
+    font-size: 14px;
+}
+.help-list-inner::after {
+    content: "";
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    z-index: 5;
+    border-right: 1px solid #323232;
+    border-bottom: 1px solid #323232;
+    width: 7px;
+    height: 7px;
+    transform: translate(0, -50%) rotate(-45deg);
+}
+
+.res-block {
+    display: none;
+    margin: 10px;
+    padding: 10px 15px 20px 15px;
+    background-color: #fff;
+    color: #323232;
+}
+.res-title {
+    font-size: 14px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.res-content {
+    font-size: 14px;
+    line-height: 26px;
+    text-indent: 28px;
+    padding-bottom: 40px;
+}
+.res-table {
+    text-align: center;
+    width: 100%;
+    border-radius: 3px;
+}
+.res-table tr {
+    height: 30px;
+}
